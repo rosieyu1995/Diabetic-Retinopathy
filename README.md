@@ -6,22 +6,22 @@ Diabetic retinopathy is a progressive disease that is classified into one of 5 s
 The data is from Kaggle(https://www.kaggle.com/c/classroom-diabetic-retinopathy-detection-competition/data). However, this data contains images that are taken of different people, some are flipped and some are not. Therefore we do some preprocessing steps to get all images to a useable format for training a model.
 
 The training data within different classes:
-| Class        | Count           |
-| ------------ |:-------------:|
+| Class        | Count |
+| ------------ |:-----:|
 | Class 0      | 23229 |
-| Class 1      | 2199      |
-| Class 2 | 47623      |
-| Class 3 | 786      |
-| Class 4 | 639      |
+| Class 1      | 2199  |
+| Class 2      | 47623 |
+| Class 3      | 786   |
+| Class 4      | 639   |
 
 The testing data within different classes:
-| Class        | Count           |
-| ------------ |:-------------:|
-| Class 0      | 2581 |
-| Class 1      | 244      |
-| Class 2 | 529      |
-| Class 3 | 87      |
-| Class 4 | 70      |
+| Class        | Count |
+| ------------ |:-----:|
+| Class 0      | 2581  |
+| Class 1      | 244   |
+| Class 2      | 529   |
+| Class 3      | 87    |
+| Class 4      | 70    |
 
 ## Getting Started
 
