@@ -1,6 +1,6 @@
-# Project Title
+# Using a Convolutional Neural Network to Predict Clinical Stages of  Diabetic Retinopathy in Fundus Photographs
 
-One Paragraph of project description goes here
+Diabetic retinopathy is a progressive disease that is classified into one of 5 stages by an ophthalmologist, based on severity. The disease and its risk factors, as well as its symptoms, are well understood. It is diagnosed by an ophthalmologist, who examines features discovered via a visual examination and/or fundus photography (photography of the back of the eye), or other forms of optical imaging.
 
 ## Getting Started
 
