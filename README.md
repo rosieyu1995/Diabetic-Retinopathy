@@ -1,88 +1,33 @@
-# Using a Convolutional Neural Network to Predict Clinical Stages of  Diabetic Retinopathy in Fundus Photographs
+# Introduction
 
 Diabetic retinopathy is a progressive disease that is classified into one of 5 stages by an ophthalmologist, based on severity. The disease and its risk factors, as well as its symptoms, are well understood. It is diagnosed by an ophthalmologist, who examines features discovered via a visual examination and/or fundus photography (photography of the back of the eye), or other forms of optical imaging.
 
+## Data
+The data is from Kaggle(https://www.kaggle.com/c/classroom-diabetic-retinopathy-detection-competition/data). However, this data contains images that are taken of different people, some are flipped and some are not. Therefore we do some preprocessing steps to get all images to a useable format for training a model.
+
+The training data within different classes:
+| Class        | Count           |
+| ------------ |:-------------:|
+| Class 0      | 23229 |
+| Class 1      | 2199      |
+| Class 2 | 47623      |
+| Class 3 | 786      |
+| Class 4 | 639      |
+
+The testing data within different classes:
+| Class        | Count           |
+| ------------ |:-------------:|
+| Class 0      | 2581 |
+| Class 1      | 244      |
+| Class 2 | 529      |
+| Class 3 | 87      |
+| Class 4 | 70      |
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The project uses Convolutional Neural Networks(CNN) with 5 softmax output layers to classify retina photographs into one of the five levels on the clinical scale of diabetic retinopathy and ImageDataGenerator to standardize the images, adjust the amount of image that we will shear off, randomly zoom in or out of a image and flip some of our images horizontally.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Python 2.7 or 3.6 with tensorflow as backend
 
