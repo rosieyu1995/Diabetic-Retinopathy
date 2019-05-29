@@ -7,7 +7,7 @@ The data is from Kaggle(https://www.kaggle.com/c/classroom-diabetic-retinopathy-
 
 The training data within different classes:
 | Class        | Count |
-| ------------ |:-----:|
+| ------------ | ----- |
 | Class 0      | 23229 |
 | Class 1      | 2199  |
 | Class 2      | 47623 |
@@ -16,7 +16,7 @@ The training data within different classes:
 
 The testing data within different classes:
 | Class        | Count |
-| ------------ |:-----:|
+| ------------ | ----- |
 | Class 0      | 2581  |
 | Class 1      | 244   |
 | Class 2      | 529   |
