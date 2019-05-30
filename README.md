@@ -36,6 +36,7 @@ After compiled and fitting the model, our testing accuracy on our withheld image
 
 ## Project Participants
 
+- Hsin-Jung(Rosie) Yu
 - Ho Huang
 - Spencer Glass
 
