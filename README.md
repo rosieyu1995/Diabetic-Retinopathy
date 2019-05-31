@@ -1,4 +1,4 @@
-# Diabetic Retinopathy Detection and Prevention by deep learning
+# Diabetic Retinopathy Detection by deep learning
 
 Diabetic retinopathy is a progressive disease that is classified into one of 5 stages by an ophthalmologist, based on severity. The disease and its risk factors, as well as its symptoms, are well understood. It is diagnosed by an ophthalmologist, who examines features discovered via a visual examination and/or fundus photography (photography of the back of the eye), or other forms of optical imaging.
 
